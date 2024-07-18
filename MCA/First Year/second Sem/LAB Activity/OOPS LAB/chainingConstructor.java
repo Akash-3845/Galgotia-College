@@ -14,6 +14,7 @@ class Example {
 public class chainingConstructor {
     public static void main(String[] args) {
         // Create an object of the Example class
-        Example example = new Example();
+        new Example();
+        new Example("hey");
     }
 }

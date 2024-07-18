@@ -7,7 +7,7 @@ class parent {
 class child extends parent {
     @Override
     void display(String name) {
-        // TODO Auto-generated method stub
+
         super.display("Hello " + name);
     }
 }
