@@ -12,9 +12,8 @@ public class Array {
         }
         System.out.println("The element of array is");
         for (int num : array) {
-
-            System.out.print(num+" ");
-        }
+            System.out.print(num + " ");
+      }
         sc.close();
     }
 }
